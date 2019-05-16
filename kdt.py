@@ -22,6 +22,8 @@ def erandjuhud(a,b):
 def kaugus(xs, ys):
     memory = defaultdict(lambda: defaultdict(int))
     cost, xs = erandjuhud(xs, ys)
+    xs = " " + xs
+    ys = " " + ys
     if len(xs) ==0:
         return len(ys)
     if len(ys) ==0:
